@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Simple Calculator</title>
+  <title>JS DOM and Events</title>
+  <link href="styles.css" rel="stylesheet">
+
+</head>
+</head>
+<body>
+  <div class="container">
+    <h1>Simple Calculator</h1>
+    <input type="number" id="num1" placeholder="Enter number 1">
+    <br>
+    <input type="number" id="num2" placeholder="Enter number 2">
+    <br>
+    <button onclick="add()">Add</button>
+    <button onclick="subtract()">Subtract</button>
+    <button onclick="multiply()">Multiply</button>
+    <button onclick="divide()">Divide</button>
+    <button onclick="modulo()">Modulo</button>
+
+    <br>
+	<div id="problem"></div>
+    <div id="result"></div>
+	<button onclick="clearResult()">Clear</button>
+  </div>
+	<script src="./index.js"></script>
+</body>
+</html>
